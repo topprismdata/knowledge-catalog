@@ -3,38 +3,45 @@
 `UPSTREAM FORK` · `REFERENCE`
 
 This repository is an upstream fork retained by TopPrism for dependency
-management, evaluation, or architectural reference.
+management, evaluation, or architectural reference. TopPrism does NOT
+present the upstream codebase as an original TopPrism project, and does
+NOT modify the upstream README in a way that obscures original authorship.
 
-## Upstream project
+## Upstream Project
 
--   Project: `GoogleCloudPlatform/knowledge-catalog`
--   TopPrism does **not** present the upstream codebase as an original
-    TopPrism project.
+-   Upstream: `GoogleCloudPlatform/knowledge-catalog`
+-   Upstream LICENSE is preserved as committed by GitHub's fork metadata.
+-   All upstream attribution and required notices are kept intact.
 
-## Why TopPrism keeps this fork
+## Why TopPrism Keeps This Fork
 
-Knowledge-system implementation reference.
+Knowledge-system implementation reference for the TopPrism Native AI knowledge layer.
 
-## TopPrism-specific modifications
+## TopPrism-specific Modifications
 
-Document exact patches here.
+**None.** This fork is retained as an upstream reference / dependency
+mirror. TopPrism has not committed any code-level modifications on top
+of the upstream snapshot. Any TopPrism-specific opinion lives in this
+`TOPPRISM_NOTES.md` file only; the upstream source tree is byte-faithful
+to the upstream fork snapshot.
 
-If there are no meaningful TopPrism-specific modifications, write:
+## Relationship to TopPrism
 
-> **None. This fork is retained as an upstream reference / dependency
-> mirror.**
+Reference material for Native AI knowledge infrastructure; not a TopPrism original project.
 
-Do not modify the upstream README in a way that obscures original
-authorship.
+## Optional Use by TopPrism
 
-## How it relates to TopPrism
+Reference for enterprise knowledge-catalog patterns.
 
-Reference material for Native AI knowledge infrastructure; not a
-TopPrism original project.
+## Sync / Maintenance Status
 
-## Public presentation
+Snapshot retained for evaluation; not actively synced with upstream.
 
--   Do not pin this repository.
--   Do not list it as TopPrism Open Evidence.
--   Add GitHub topics: `upstream-fork`, `reference`.
--   Keep upstream attribution and license intact.
+## Public Presentation
+
+-   This repository is NOT pinned on the TopPrism GitHub profile.
+-   This repository is NOT listed as TopPrism Open Evidence.
+-   GitHub Topics include `upstream-fork` and `reference`.
+-   Upstream attribution and LICENSE are kept intact.
+-   Future upstream re-sync, if any, requires manual review of upstream
+    breaking changes before mirroring.
